@@ -1,0 +1,54 @@
+# Docs: a basic Word. A document is a .docs file in the Documents folder of
+# your drive — a plain text file holding its blocks exactly as written —
+# and a Word file in that folder is a document too, read and written as
+# Word. The page, the bar of styles and the Markdown the terminal edits are
+# Cloudmorrow's document kit, drawn on every surface (docs/DOCS.md in the
+# Cloudmorrow repository); nothing here is code.
+
+[quill]
+id = "docs"
+name = "Docs"
+version = "1.0.0"
+summary = "Documents: a basic Word — headings, lists, tables and styles — over .docs files and Word's own, on the phone, the web, the terminal and the command line."
+category = "productivity"
+icon = "document"
+publisher = "Cloudmorrow"
+license = "AGPL-3.0-or-later"
+features = [
+  "Documents of headings, paragraphs, bullets, numbers, quotes and tables, with bold, italic, underline, strike-through and links",
+  "A page you type into, with a bar of styles, saved as you type; on a computer the list and the page side by side",
+  "A document is a .docs file in the Documents folder of your drive: its blocks kept exactly as written, in My Files, on WebDAV, and open to your assistant and anything that reads JSON",
+  "A Word file (.docx) in that folder is a document too: opened, edited and saved back as Word",
+  "Export writes a Word file beside any document, and hands it over to save",
+  "In the terminal and on the command line, a document is edited as Markdown; import and export Word, .docs and Markdown files",
+  "Folders under Documents, and a search through names and words",
+  "A first document, Welcome, for everyone the first time they open Docs",
+]
+
+# A document is a file. Docs uses the file datamodel and nothing of its own.
+[uses]
+datamodels = ["file"]
+
+# One tab: the folders and documents beside the page you are writing. On a
+# phone the list comes first and the page after it; on a computer and in
+# the terminal they are side by side. The documents are the .docs and
+# .docx files under Documents in your own drive; a new one is a .docs.
+[[screens]]
+id = "docs"
+kit = "document"
+label = "Docs"
+model = "file"
+where = { share = "my-files", within = "Documents" }
+suffix = [".docs", ".docx"]
+title = "name"
+body = "text"
+path = "path"
+
+# The first time somebody opens Docs and has no document, one that says
+# what Docs is, to type over.
+[[datasets]]
+id = "welcome"
+model = "file"
+seed = "per-owner"
+where = { share = "my-files", within = "Documents", suffix = ".docs,.docx" }
+file = "datasets/welcome.toml"
