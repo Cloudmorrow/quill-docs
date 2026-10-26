@@ -11,7 +11,7 @@ text = """
     {"kind": "paragraph", "runs": [{"text": "A document is a page of "}, {"text": "headings", "bold": true}, {"text": ", paragraphs, "}, {"text": "lists", "italic": true}, {"text": ", quotes and tables. Type here: it saves as you type, and the bar above puts a style on what you have selected."}]},
     {"kind": "bullet", "runs": [{"text": "Every document is a .docs file in the Documents folder of your drive: in My Files, on WebDAV, open to your assistant."}]},
     {"kind": "bullet", "runs": [{"text": "A Word file in that folder opens here too, and is saved back as Word."}]},
-    {"kind": "bullet", "runs": [{"text": "Export, in the bar at the top, writes a Word file beside any document and hands it to you."}]},
+    {"kind": "bullet", "runs": [{"text": "Export, in the bar at the top, hands any document to you as Word, PDF or Markdown; Open, beside it, opens a document from anywhere on your cloud."}]},
     {"kind": "quote", "runs": [{"text": "In the terminal, a document is Markdown: # for a heading, - for a bullet, **bold** and *italic*."}]}
   ]
 }

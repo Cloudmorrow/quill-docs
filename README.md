@@ -15,13 +15,17 @@ web app, the terminal and the command line.
   over those files and nothing more. Removing this Quill takes the tab
   away, never a document.
 - A Word file (`.docx`) in that folder is a document too: it opens here,
-  and is saved back as Word. **Export** writes a Word file beside any
-  document and hands it to you. What the kit keeps — the words, the
-  styles above — goes to and from Word; pictures, fonts, sizes and colours
-  do not.
+  and is saved back as Word. What the kit keeps — the words, the styles
+  above — goes to and from Word; pictures, fonts, sizes and colours do not.
+- **Export** hands any document to you as Word, as a PDF, or as Markdown.
+  **Open** opens a document from anywhere on your cloud — another folder
+  of your drive, a fileshare, a Word file somebody put there — and it
+  stays where it is.
 - In the terminal and on the command line a document is edited as
-  Markdown (`# ` a heading, `- ` a bullet, `**bold**`), and imported from
-  or exported to a Word, `.docs` or Markdown file on this machine.
+  Markdown (`# ` a heading, `- ` a bullet, `**bold**`), imported from a
+  Word, `.docs` or Markdown file on this machine, and exported to Word,
+  PDF, `.docs` or Markdown; `cm docs show team:Plans/Offer.docx` reaches
+  a document anywhere.
 - Folders under Documents, a search through names and words, and a first
   document, Welcome, for everyone the first time they open Docs.
 
@@ -30,7 +34,7 @@ The file, what goes to and from Word, and what each surface does, are
 in the Cloudmorrow repository.
 
 Install it from the Quill Catalog, or from this repository with
-`cm quill add --source https://github.com/Cloudmorrow/quill-docs --ref v1.0.0`.
+`cm quill add --source https://github.com/Cloudmorrow/quill-docs --ref v1.1.0`.
 
 ## What it adds to your Cloudmorrow
 
