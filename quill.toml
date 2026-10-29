@@ -8,7 +8,7 @@
 [quill]
 id = "docs"
 name = "Docs"
-version = "1.1.0"
+version = "1.1.1"
 summary = "Documents: a basic Word — headings, lists, tables and styles — over .docs files and Word's own, on the phone, the web, the terminal and the command line."
 category = "productivity"
 icon = "document"
