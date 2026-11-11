@@ -18,9 +18,9 @@ web app, the terminal and the command line.
   and is saved back as Word. What the kit keeps — the words, the styles
   above — goes to and from Word; pictures, fonts, sizes and colours do not.
 - **Export** hands any document to you as Word, as a PDF, or as Markdown.
-  **Open** opens a document from anywhere on your cloud — another folder
-  of your drive, a fileshare, a Word file somebody put there — and it
-  stays where it is.
+- Under **Folders** the first row is the drive Docs looks at: tap it to
+  look at a fileshare instead — a Word file somebody put there opens the
+  same way, and stays where it is — and again to come home to My Files.
 - In the terminal and on the command line a document is edited as
   Markdown (`# ` a heading, `- ` a bullet, `**bold**`), imported from a
   Word, `.docs` or Markdown file on this machine, and exported to Word,
@@ -32,8 +32,8 @@ web app, the terminal and the command line.
   the browser's, once you switch it on under the gear on the Docs
   screen — the language you write in, the words you add, kept on you for
   every device. A word it does not know is tinted with a bar under it;
-  click or tap it for suggestions. Select some lines and right-click
-  them, or hold a finger on them, to check them in another language; the part is
+  right-click it, or hold a finger on it, for suggestions. Select some
+  lines and do the same to check them in another language; the part is
   marked at its left edge, with an × that takes it back. The document
   keeps the part as `lang` on its blocks.
 
