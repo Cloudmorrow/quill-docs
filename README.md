@@ -28,6 +28,14 @@ web app, the terminal and the command line.
   a document anywhere.
 - Folders under Documents, a search through names and words, and a first
   document, Welcome, for everyone the first time they open Docs.
+- **Spelling**, in the web app: your cloud's own spellchecker rather than
+  the browser's, once you switch it on under the gear on the Docs
+  screen — the language you write in, the words you add, kept on you for
+  every device. A word it does not know is tinted with a bar under it;
+  right-click it, or hold a finger on it, for suggestions. Select some
+  lines and do the same to check them in another language; the part is
+  marked at its left edge, with an × that takes it back. The document
+  keeps the part as `lang` on its blocks.
 
 The file, what goes to and from Word, and what each surface does, are
 [docs/DOCS.md](https://github.com/Cloudmorrow/cloudmorrow/blob/main/docs/DOCS.md)
