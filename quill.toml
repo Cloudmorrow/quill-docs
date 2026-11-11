@@ -8,7 +8,7 @@
 [quill]
 id = "docs"
 name = "Docs"
-version = "1.1.1"
+version = "1.1.2"
 summary = "Documents: a basic Word — headings, lists, tables and styles — over .docs files and Word's own, on the phone, the web, the terminal and the command line."
 category = "productivity"
 icon = "document"
@@ -23,6 +23,7 @@ features = [
   "Open a document from anywhere on your cloud: another folder of your drive, a fileshare, a Word file somebody put there",
   "In the terminal and on the command line, a document is edited as Markdown; import Word, .docs and Markdown files, export Word, PDF, .docs and Markdown",
   "Folders under Documents, and a search through names and words",
+  "Spelling in the web app: your cloud's own checker in place of the browser's, switched on under the gear; suggestions on a right-click or a held finger, words you add kept on you, and any part of a document checked in another language, marked at its left edge",
   "A first document, Welcome, for everyone the first time they open Docs",
 ]
 
