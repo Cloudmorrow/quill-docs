@@ -32,8 +32,8 @@ web app, the terminal and the command line.
   the browser's, once you switch it on under the gear on the Docs
   screen — the language you write in, the words you add, kept on you for
   every device. A word it does not know is tinted with a bar under it;
-  right-click it, or hold a finger on it, for suggestions. Select some
-  lines and do the same to check them in another language; the part is
+  click or tap it for suggestions. Select some lines and right-click
+  them, or hold a finger on them, to check them in another language; the part is
   marked at its left edge, with an × that takes it back. The document
   keeps the part as `lang` on its blocks.
 
