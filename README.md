@@ -21,6 +21,10 @@ web app, the terminal and the command line.
 - Under **Folders** the first row is the drive Docs looks at: tap it to
   look at a fileshare instead — a Word file somebody put there opens the
   same way, and stays where it is — and again to come home to My Files.
+- Every row of the list has a menu — right-click it on a computer, hold a
+  finger on it on a phone: Rename, Duplicate, Move to another folder, Open
+  folder in Files, Delete — and **Select** beside the pen picks several to
+  move or delete at once.
 - In the terminal and on the command line a document is edited as
   Markdown (`# ` a heading, `- ` a bullet, `**bold**`), imported from a
   Word, `.docs` or Markdown file on this machine, and exported to Word,
